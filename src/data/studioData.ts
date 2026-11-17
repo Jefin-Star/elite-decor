@@ -97,8 +97,8 @@ export const STUDIO_INFO = {
   heroSubcopy:
     'Bespoke residential, villa, modular kitchen, and commercial interiors crafted in Edappally, Ernakulam with enduring natural materials and complete turnkey execution.',
   logoUrl: '/assets/aistudio/dfcc495c-0941-4009-98ae-439443966d60_ebffe084.jpg',
-  heroImage: '/src/assets/images/hero_luxury_living_1794908440301.jpg',
-  aboutImage: '/src/assets/images/about_atelier_studio_1794908440945.jpg',
+  heroImage: './images/hero_luxury_living_1794908440301.jpg',
+  aboutImage: './images/about_atelier_studio_1794908440945.jpg',
   contact: {
     phoneDisplay: '+91 99465 99463',
     phoneRaw: '9946599463',
@@ -170,7 +170,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     description:
       'A sunlit residence anchored by honed travertine stone walls, reclaimed oak ceiling beams, and bespoke bouclé lounge seating.',
     materials: ['Honed Travertine', 'Solid White Oak', 'Brushed Champagne Brass', 'Belgian Bouclé'],
-    image: '/src/assets/images/hero_luxury_living_1794908440301.jpg',
+    image: './images/hero_luxury_living_1794908440301.jpg',
     featured: true,
   },
   {
@@ -184,7 +184,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     description:
       'Floor-to-ceiling fluted walnut cabinetry paired with a book-matched Calacatta marble waterfall island and recessed linear task lighting.',
     materials: ['Fluted American Walnut', 'Calacatta Marble', 'Hettich Soft-Close Hardware', 'Champagne Brass'],
-    image: '/src/assets/images/portfolio_modular_kitchen_1794908440879.jpg',
+    image: './images/portfolio_modular_kitchen_1794908440879.jpg',
   },
   {
     id: 'proj-oak-sanctuary-bedroom',
@@ -197,7 +197,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     description:
       'Acoustic vertical oak headboard paneling bathed in warm alabaster wall sconces, layered Belgian linens, and floor-to-ceiling sheer drapery.',
     materials: ['Quarter-Sawn Oak', 'Spanish Alabaster', 'Belgian Linen', 'Hand-Tufted Wool'],
-    image: '/src/assets/images/portfolio_master_bedroom_1794908441516.jpg',
+    image: './images/portfolio_master_bedroom_1794908441516.jpg',
   },
   {
     id: 'proj-courtyard-villa',
@@ -210,7 +210,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     description:
       'Double-height sunlit villa featuring a floating oak-and-glass staircase, limestone floors, timber slat ceilings, and an indoor tropical courtyard.',
     materials: ['Kota & Limestone', 'Burma Teak Ceiling', 'Tempered Low-Iron Glass', 'Architectural Concrete'],
-    image: '/src/assets/images/portfolio_villa_interior_1794908441583.jpg',
+    image: './images/portfolio_villa_interior_1794908441583.jpg',
     featured: true,
   },
   {
@@ -224,7 +224,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     description:
       'Open-plan waterfront apartment wrapped in hand-troweled limewash plaster, custom oak dining furniture, and architectural brass lighting.',
     materials: ['Mineral Limewash', 'European Oak', 'Saddle Leather', 'Satin Brass'],
-    image: '/src/assets/images/portfolio_apartment_interior_1794908443108.jpg',
+    image: './images/portfolio_apartment_interior_1794908443108.jpg',
   },
   {
     id: 'proj-hearth-living',
@@ -237,7 +237,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     description:
       'Custom charcoal-stained millwork framing a marble hearth, herringbone oak flooring, and warm brass wall sconces for effortless entertaining.',
     materials: ['Herringbone Oak', 'Carrara Marble', 'Charcoal Stained Ash', 'Unlacquered Brass'],
-    image: '/src/assets/images/service_turnkey_renovation_1794908445193.jpg',
+    image: './images/service_turnkey_renovation_1794908445193.jpg',
   },
   {
     id: 'proj-executive-office',
@@ -250,7 +250,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     description:
       'Acoustically engineered executive headquarters featuring walnut slat feature walls, a monolithic travertine reception, and glazed boardrooms.',
     materials: ['Acoustic Walnut Slats', 'Vein-Cut Travertine', 'Anodized Bronze Glass', 'Full-Grain Leather'],
-    image: '/src/assets/images/portfolio_office_interior_1794908442728.jpg',
+    image: './images/portfolio_office_interior_1794908442728.jpg',
   },
   {
     id: 'proj-boutique-showroom',
@@ -263,7 +263,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     description:
       'Curved fluted travertine concierge counter illuminated by sculpted cove ceilings, olive velvet seating, and bespoke display niches.',
     materials: ['Fluted Travertine', 'Olive Mohair Velvet', 'Venetian Plaster', 'Warm 2700K Cove LEDs'],
-    image: '/src/assets/images/portfolio_commercial_space_1794908443697.jpg',
+    image: './images/portfolio_commercial_space_1794908443697.jpg',
   },
   {
     id: 'proj-sculpted-ceiling',
@@ -276,7 +276,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     description:
       'Multi-tiered acoustic gypsum false ceiling with concealed warm 2700K perimeter coves, flush magnetic track slots, and teak wood inlays.',
     materials: ['Saint-Gobain Gypsum', 'Teak Veneer Inlay', 'Magnetic Track Lighting', 'CRI 95+ LED Strips'],
-    image: '/src/assets/images/portfolio_false_ceiling_1794908443961.jpg',
+    image: './images/portfolio_false_ceiling_1794908443961.jpg',
   },
   {
     id: 'proj-fluted-wardrobe',
@@ -289,7 +289,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     description:
       'Walk-in dressing room crafted with fluted bronze glass shutters, motion-activated shelf illumination, and a walnut center jewelry island.',
     materials: ['Fluted Smoked Glass', 'Dark Walnut Veneer', 'Leather-Lined Drawers', 'Brushed Brass Pulls'],
-    image: '/src/assets/images/portfolio_wardrobe_storage_1794908444912.jpg',
+    image: './images/portfolio_wardrobe_storage_1794908444912.jpg',
   },
 ];
 
@@ -311,7 +311,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '12 – 20 Weeks',
     startingScope: 'Custom Homes & Residences',
-    image: '/src/assets/images/hero_luxury_living_1794908440301.jpg',
+    image: './images/hero_luxury_living_1794908440301.jpg',
     defaultStyle: 'Modern',
   },
   {
@@ -331,7 +331,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '10 – 18 Weeks',
     startingScope: 'Offices, Retail & Hospitality',
-    image: '/src/assets/images/portfolio_commercial_space_1794908443697.jpg',
+    image: './images/portfolio_commercial_space_1794908443697.jpg',
     defaultStyle: 'Contemporary',
   },
   {
@@ -351,7 +351,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '18 – 28 Weeks',
     startingScope: '3,000 – 10,000+ Sq. Ft. Villas',
-    image: '/src/assets/images/portfolio_villa_interior_1794908441583.jpg',
+    image: './images/portfolio_villa_interior_1794908441583.jpg',
     defaultStyle: 'Luxury',
   },
   {
@@ -371,7 +371,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '8 – 14 Weeks',
     startingScope: '2BHK, 3BHK, 4BHK & Penthouses',
-    image: '/src/assets/images/portfolio_apartment_interior_1794908443108.jpg',
+    image: './images/portfolio_apartment_interior_1794908443108.jpg',
     defaultStyle: 'Contemporary',
   },
   {
@@ -391,7 +391,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '5 – 8 Weeks',
     startingScope: 'L-Shape, U-Shape, Parallel & Island',
-    image: '/src/assets/images/portfolio_modular_kitchen_1794908440879.jpg',
+    image: './images/portfolio_modular_kitchen_1794908440879.jpg',
     defaultStyle: 'Modern',
   },
   {
@@ -411,7 +411,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '6 – 10 Weeks',
     startingScope: 'Single Rooms or Full-Floor Suites',
-    image: '/src/assets/images/portfolio_master_bedroom_1794908441516.jpg',
+    image: './images/portfolio_master_bedroom_1794908441516.jpg',
     defaultStyle: 'Minimalist',
   },
   {
@@ -431,7 +431,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '2 – 4 Weeks',
     startingScope: 'Pre-Execution Design Package',
-    image: '/src/assets/images/service_space_planning_1794908444119.jpg',
+    image: './images/service_space_planning_1794908444119.jpg',
     defaultStyle: 'Modern',
   },
   {
@@ -451,7 +451,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '3 – 6 Weeks',
     startingScope: 'Whole-Home or Zone Upgrades',
-    image: '/src/assets/images/portfolio_false_ceiling_1794908443961.jpg',
+    image: './images/portfolio_false_ceiling_1794908443961.jpg',
     defaultStyle: 'Contemporary',
   },
   {
@@ -471,7 +471,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '4 – 8 Weeks',
     startingScope: 'Custom Millwork & Loose Furniture',
-    image: '/src/assets/images/portfolio_wardrobe_storage_1794908444912.jpg',
+    image: './images/portfolio_wardrobe_storage_1794908444912.jpg',
     defaultStyle: 'Luxury',
   },
   {
@@ -491,7 +491,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '10 – 18 Weeks',
     startingScope: 'Full-Home & Commercial Upgrades',
-    image: '/src/assets/images/service_turnkey_renovation_1794908445193.jpg',
+    image: './images/service_turnkey_renovation_1794908445193.jpg',
     defaultStyle: 'Traditional',
   },
   {
@@ -511,7 +511,7 @@ export const SERVICES_LIST: ServiceItem[] = [
     ],
     typicalTimeline: '12 – 24 Weeks',
     startingScope: 'Complete Concept-to-Key Execution',
-    image: '/src/assets/images/portfolio_office_interior_1794908442728.jpg',
+    image: './images/portfolio_office_interior_1794908442728.jpg',
     defaultStyle: 'Luxury',
   },
 ];
