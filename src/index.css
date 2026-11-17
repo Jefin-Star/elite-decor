@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-ivory: #F7F4EF;
+  --color-sand: #EFEAE1;
+  --color-obsidian: #141311;
+  --color-charcoal: #1E1C19;
+  --color-stone: #5A554E;
+  --color-hairline: #E2DDD3;
+  --color-gold: #B68F47;
+  --color-gold-dark: #8D6B2E;
+  --color-gold-light: #D4B475;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Hide scrollbars cleanly for horizontal filter tracks */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

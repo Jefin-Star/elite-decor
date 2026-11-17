@@ -1,0 +1,6 @@
+{
+  "name": "ELITE DECOR Interior Company",
+  "description": "Luxury architectural interior design studio in Edappally, Ernakulam specializing in bespoke residential, villa, apartment, modular kitchen, and commercial interiors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
